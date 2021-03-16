@@ -1,15 +1,9 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
 
 body {
   background-color: hsl(185, 75%, 39%);
   overflow: hidden;
-  min-height: 100vh;
-  position: relative;
+  height: 100vh;
   font-size: 18px;
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 400;
@@ -20,7 +14,8 @@ body {
 body::after,
 body::before {
   content: "";
-  position: absolute;
+  position: fixed;
+
   border-radius: 50%;
   width: 800px;
   height: 800px;
