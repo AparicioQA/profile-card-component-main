@@ -1,0 +1,22 @@
+:root {
+  --dark: hsl(185, 75%, 39%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: absolute;
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url("/images/bg-pattern-top.svg"),
+    url("/images/bg-pattern-bottom.svg");
+  background-position: top -32rem left -60%, bottom -39rem right -50%;
+  background-repeat: no-repeat;
+  background-color: var(--dark);
+  overflow: hidden;
+}
