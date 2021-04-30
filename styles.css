@@ -47,8 +47,8 @@ body::before {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
-  height: 400px;
+  width: 330px;
+  height: 370px;
   background-color: white;
   z-index: 10;
 
